@@ -1,0 +1,46 @@
+{
+  "title": "Chọn cách kể dòng thời gian",
+  "question": "Cả ba cách đều giữ nhận diện MIYO và kể lại chuyến đi bằng Parallax. Bạn muốn xem hành trình theo cấu trúc nào?",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "Những lớp ký ức",
+      "kicker": "THE ROLL",
+      "lineage": "Các cảnh ảnh Parallax nối tiếp theo hành trình",
+      "thesis": "Mỗi ngày mở ra như một lớp ảnh, đưa người xem đi sâu vào chuyến giao lưu.",
+      "palette": ["#f1efe9", "#191b1b", "#a24f38", "#334f60"],
+      "materials": ["ảnh toàn khung", "đường nối thanh mảnh", "chữ MIYO hiện có"],
+      "viewport": "Ảnh lớn mở đầu với tên hành trình; đoạn timeline đầu tiên ló vào dưới mép màn hình.",
+      "risk": "Ảnh mẫu cần được thay bằng ảnh thật để câu chuyện có tính xác thực.",
+      "html": ".impeccable/mocks/decision/assigned.html"
+    },
+    {
+      "id": "dealt-7",
+      "kind": "dealt",
+      "label": "Tấm vé của từng ngày",
+      "lineage": "Các dấu mốc như bộ sưu tập vé hành trình",
+      "thesis": "Mỗi ngày là một tấm vé riêng, ghi lại địa điểm và một khoảnh khắc đáng nhớ.",
+      "palette": ["#f1efe9", "#191b1b", "#a24f38", "#e8e5dd"],
+      "materials": ["khung vé", "ảnh cắt cảnh", "nhãn ngày tháng"],
+      "viewport": "Lời mở đầu ngắn phía trên, tiếp theo là các vé kỷ niệm xếp so le.",
+      "risk": "Khung vé không nên lấn át ảnh và câu chuyện.",
+      "html": ".impeccable/mocks/decision/dealt-7.html"
+    },
+    {
+      "id": "dealt-1",
+      "kind": "dealt",
+      "label": "Dòng thời gian chung",
+      "lineage": "Một trục dọc duy nhất từ ngày đầu tới sân bay",
+      "thesis": "Một đường thời gian liên tục giúp cả hai đoàn lần theo chuyến đi theo đúng thứ tự.",
+      "palette": ["#f1efe9", "#191b1b", "#a24f38", "#334f60"],
+      "materials": ["trục thời gian", "ảnh xen kẽ", "nhãn ngày dạng mono"],
+      "viewport": "Tiêu đề gọn ở đầu; trục ngày đầu tiên bắt đầu ngay trong màn hình mở đầu.",
+      "risk": "Các mốc cần đa dạng bố cục để cuộn dài không trở nên đơn điệu.",
+      "html": ".impeccable/mocks/decision/dealt-1.html"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "steer": true
+}
